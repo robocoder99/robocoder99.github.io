@@ -16,12 +16,11 @@ jobs:
           
       - name: Update Submodule
         run: |
-          cd robocoder99.github.io
+          ls
           git submodule update --remote --merge
           
       - name: Commit files
         run: |
-          cd robocoder99.github.io
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git commit -m "Update Submodule" -a
