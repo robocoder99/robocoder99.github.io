@@ -1,0 +1,3 @@
+[submodule "EEP"]
+	path = EEP
+	url = https://github.com/robocoder99/EEP
